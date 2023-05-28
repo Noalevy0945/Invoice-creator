@@ -1,0 +1,153 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+  background-color: #292c4a;
+
+  box-sizing: border-box;
+}
+
+/* header-box */
+
+.header-box {
+  background-color: #83a4eb;
+  color: white;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-box .title {
+  font-size: 1.5rem;
+}
+
+/* items */
+
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-btn {
+  background-color: #d1d4f4;
+  color: #4a4e74;
+  padding: 0.75em;
+  margin-top: 2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.task-item {
+  display: flex;
+}
+.item-btn:active {
+  background-color: rgb(75, 110, 156);
+  color: white;
+}
+
+/* cart */
+
+.checkout {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+
+.task-title {
+  font-size: 12px;
+  padding-left: 1.5em;
+  padding-top: 2em;
+}
+
+.items-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.item-price {
+  padding-top: 0.5em;
+  font-size: 24px;
+}
+
+.remove-btn {
+  cursor: pointer;
+  font-size: 8px;
+  align-self: end;
+  padding: 0 2em;
+}
+
+.task-item {
+  padding-top: 0.5em;
+  font-size: 20px;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1em;
+  justify-content: flex-start;
+}
+
+.title-total {
+  font-size: 12px;
+}
+
+
+
+/* total - amount */
+
+.items-calc {
+  border-top: white 1px solid;
+  margin: 2em;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+}
+
+.total-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.total-num {
+  font-weight: 600;
+  font-size: 2rem;
+  padding-top: 0.5em;
+  align-self: flex-end;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-des {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.send-btn {
+  background-color: rgb(75, 110, 156);
+  margin: 0 auto;
+  padding: 0.75em 14em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.send-btn i {
+  padding-right: 10px;
+}
+
+.hidden {
+  display: none;
+}
